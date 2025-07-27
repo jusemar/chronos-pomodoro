@@ -1,14 +1,8 @@
-
-import { Heading } from './components/Heading';
+import { Home } from './pages/Home';
 import './styles/theme.css';
 import './styles/global.css';
+import { AboutPomodoro } from './pages/AboutPomodoro';
+import { NotFound } from './pages/NotFound';
+
 export function App() {  
-  return (
-    <>
-      <Heading/>
-      <p>This is a simple React application.</p>
-    
-     <h2>Olá, eu sou o melhor programador do brasil</h2>
-     </>
-  );
-}
+  return <Home/>;}
